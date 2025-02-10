@@ -14,7 +14,7 @@ app.use(cors({
     //     'http://192.168.37.1:5173',
     //     'http://192.168.67.237:5173'
     //     ],
-    origin: "*",
+    origin: "https://online-food-order-frontend-o2g7.onrender.com",
     credentials: true,
     // methods: ["GET", "POST", "PUT", "DELETE"],  // ✅ Allow specific methods
     // allowedHeaders: ["Content-Type", "Authorization"],  // ✅ Allow necessary headers
