@@ -48,8 +48,10 @@ npm run dev
 ```
 
 #### Start the backend
+```sh
 cd ../../backend
 npm run dev
+```
 
 ### 🌍 Live Demo
 🔗 Live Demo 
