@@ -6,14 +6,15 @@ const app = express();
 
 app.use(cors({
     // origin: "http://localhost:5173",
-    origin: [
-        'http://localhost:5173',
-        'http://192.168.56.1:5173',
-        'http://192.168.137.1:5173',
-        'http://192.168.16.1:5173',
-        'http://192.168.37.1:5173',
-        'http://192.168.67.237:5173'
-        ],
+    // origin: [
+    //     'http://localhost:5173',
+    //     'http://192.168.56.1:5173',
+    //     'http://192.168.137.1:5173',
+    //     'http://192.168.16.1:5173',
+    //     'http://192.168.37.1:5173',
+    //     'http://192.168.67.237:5173'
+    //     ],
+    origin: "*",
     credentials: true,
     // methods: ["GET", "POST", "PUT", "DELETE"],  // ✅ Allow specific methods
     // allowedHeaders: ["Content-Type", "Authorization"],  // ✅ Allow necessary headers
