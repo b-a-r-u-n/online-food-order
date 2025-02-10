@@ -1,7 +1,5 @@
 # 🍽️ Food Ordering App - Elegant & Premium Restaurant Experience  
 
-![Food Ordering App](https://via.placeholder.com/1200x600.png?text=Your+App+Banner+Here)  
-
 ## 📌 Overview  
 This is a modern and elegant **food ordering website** built with **React.js, Tailwind CSS, and Node.js with Express**. The application provides a seamless experience for customers to browse menus, add items to the cart, and place orders while maintaining a premium UI/UX.  
 
