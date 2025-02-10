@@ -11,8 +11,6 @@ function App() {
 
   const isError = useSelector(state => state.home.isError);
   const isLoading = useSelector(state => state.home.isLoading);
-  console.log("Loading",isLoading );
-  console.log("Error", isError);
 
   useEffect(() => {
     dispatch(fetchedData());

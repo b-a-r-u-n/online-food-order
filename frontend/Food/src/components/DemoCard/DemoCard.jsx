@@ -2,7 +2,6 @@ import React from 'react'
 import { useState } from 'react';
 
 const DemoCard = ({foodItem}) => {
-    console.log("DemoCard");
     
     const options = Object.keys(foodItem.options[0]);
 
