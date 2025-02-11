@@ -54,5 +54,5 @@ npm run dev
 ```
 
 ### 🌍 Live Demo
-🔗 Live Demo 
+🔗 https://online-food-order-frontend-o2g7.onrender.com/
 
